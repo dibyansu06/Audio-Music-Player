@@ -1,0 +1,47 @@
+*{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#background{
+    overflow: hidden;
+    margin: auto;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.content-box{
+    width: 90%; 
+    height: 90vh;
+    margin: 50px 5px;
+    background-color: rgb(52, 48, 48);
+    box-shadow: 0 0 100px rgb(255, 255, 255);
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.content-box:hover{
+    box-shadow: 0 0 100px red;
+}
+.content{
+    text-align: center;
+    padding: 10px;
+    opacity: 1;
+}
+.audio-block{
+    display: inline-block;
+    opacity: 1;
+    padding: 100px 10px;
+}
+.audio-block-2{
+    display: inline-block;
+    opacity: 1;
+    padding: 150px 10px;
+}
+.song-title{
+    display: block;
+    padding-bottom: 30px;
+    border-radius: 10%;
+}
+.hr{
+    color: rgb(255, 255, 255);
+}
